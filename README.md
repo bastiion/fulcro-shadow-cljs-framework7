@@ -40,6 +40,21 @@ Framework7 app created with following options:
 * 🔧 `build-dev` - build web app using development mode (faster build without minification and optimization)
 * 🔧 `build-prod` - build web app for production
 
+## Shadow CLJS build
+
+Two builds will finally compile the clojure-script and combine the output with the transpiled js code produced in the
+webpack build stage.
+
+
+The variant not working, because framework-7 is not initialized
+
+  npx shadow-cljs watch :direct-no-webpack
+ 
+
+The variant which is working, because of external initialization of framework7
+ 
+  npx shadow-cljs watch :direct
+
 ## WebPack
 
 There is a webpack bundler setup. It compiles and bundles all "front-end" resources. You should work only with files located in `/src` folder. Webpack config located in `build/webpack.config.js`.
