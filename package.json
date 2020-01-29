@@ -6,7 +6,6 @@
   "repository": "",
   "license": "UNLICENSED",
   "framework7": {
-    "cwd": "/home/basti/daten/Projekte/prototype_fund/2019/playground/framework7-minimal",
     "type": [
       "web"
     ],
