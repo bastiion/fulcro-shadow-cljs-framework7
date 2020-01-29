@@ -6,7 +6,6 @@ Framework7 app created with following options:
 
 ```
 {
-  "cwd": "/home/basti/daten/Projekte/prototype_fund/2019/playground/framework7-minimal",
   "type": [
     "web"
   ],
@@ -48,12 +47,12 @@ webpack build stage.
 
 The variant not working, because framework-7 is not initialized
 
-  npx shadow-cljs watch :direct-no-webpack
+    npx shadow-cljs watch :direct-no-webpack
  
 
 The variant which is working, because of external initialization of framework7
  
-  npx shadow-cljs watch :direct
+    npx shadow-cljs watch :direct
 
 ## WebPack
 
