@@ -2,8 +2,8 @@
   (:require
     [taoensso.timbre :as log]
     [com.fulcrologic.framework7.factory-helpers :as h]
-    ["framework7/js/framework7" :as Framework7]
-    ["framework7-react/framework7-react.bundle" :as Framework7React]
+    ["framework7/framework7-lite.esm.bundle.js" :default Framework7]
+    ["framework7-react/framework7-react.esm.js" :default Framework7React]
     [com.fulcrologic.framework7.components :refer
      [f7-app f7-panel f7-view f7-page f7-navbar f7-nav-left f7-nav-right f7-link f7-button f7-block f7-block-title f7-list f7-list-item f7-row f7-toolbar]]
     [com.fulcrologic.fulcro.application :as app]
